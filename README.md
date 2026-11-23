@@ -27,3 +27,9 @@ A full-stack NLP web application built with **Python** and **Flask** that analyz
 ├── server.py                    # Flask application entry point (Pylint 10/10)
 ├── test_emotion_detection.py    # Unit test suite
 └── README.md
+
+## Running Locally & Testing
+1. **Install dependencies:** `pip install flask requests`
+2. **Start the server:** `python3 server.py` (runs on `http://localhost:5000`)
+3. **Run unit tests:** `python3 test_emotion_detection.py`
+4. **Run static analysis:** `pylint server.py`
